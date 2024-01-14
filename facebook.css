@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #dddfe2;
+}
+.logo{
+    width: 310px;
+}
+.sub1{
+    width: 55%;
+    padding-left: 18%;
+    padding-top: 15%;
+    ;
+}
+.sub2{
+    width:45%;
+    
+}
+.main-div{
+    display: flex;
+
+}
+input{
+    display: block;
+    width: 92%;
+    height: 48px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+button{
+    display: block;
+
+}
+p{
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 28px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.form-div{
+    background-color: white;
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 20%;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1), 0 8px 16px rgba(0,0,0,.1);
+
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+}
+input[type="submit"]{
+    background-color: rgb(20, 107, 238);
+    border:none;
+    border-radius: 8px;
+    color:white;
+    font-size: 20px;
+    font-family: inherit;
+    
+ }
+ input[type="text"],[type="password"]{
+     border: 1px solid rgb(237, 234, 234);
+     border-radius: 8px;
+     padding-left: 10px;
+     
+ 
+ }
+ a{
+    display: block;
+    text-decoration: none;
+    color:#1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin:auto;
+    width: max-content;
+    font-family: inherit;
+    margin-top: 20px;
+
+}
+.hr{
+    border-top: 1px solid #dddfe2;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+button{
+    background-color: #42b72a;
+    width: 44%;
+    height:44px;
+    margin: auto;
+    border-radius: 6px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
